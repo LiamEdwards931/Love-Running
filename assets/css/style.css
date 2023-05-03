@@ -284,25 +284,38 @@ footer {
         margin: 0 auto;
     }
 
-    #welcome{
-        padding:30px 0;
-        margin:0;
+    #welcome {
+        padding: 30px 0;
+        margin: 0;
     }
 
-    #left-about, #right-about{
-        width:100%;
-        float:left;
-        padding:0
+    #left-about,
+    #right-about {
+        width: 100%;
+        float: left;
+        padding: 0
     }
 
-    #center-about{
-        clear:both;
-        width:100%;
-        float:left;
-        padding:0;
+    #center-about {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
     }
 
-    hr{
-        display:none;
+    hr {
+        display: none;
+    }
+}
+
+/* smart phone media query*/
+
+@media screen and (max-width:950px) {
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
     }
 }
